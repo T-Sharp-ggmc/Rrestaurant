@@ -1,7 +1,6 @@
-import 'package:Restaurant/models/screen/category_meals_screen.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'screen/category_meals_screen.dart';
+
+import '../screens/category_meals_screen.dart';
 
 class CategoryItem extends StatelessWidget {
   final String id;
@@ -35,7 +34,7 @@ class CategoryItem extends StatelessWidget {
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: [
-              color.withOpacity(1),
+              color.withOpacity(0.7),
               color,
             ],
             begin: Alignment.topLeft,
